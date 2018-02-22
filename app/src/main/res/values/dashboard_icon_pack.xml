@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- YOUR ICON PACK NAME -->
+    <string name="app_name">MCF Icon Pack</string>
+
+    <string name="theme_title">Material Circle Fold Icon Pack</string>
+    <string name="theme_name">MCFIP</string>
+
+    <string name="theme_author">Crumet Studio</string>
+    <string name="developer_name">Crumet Studio</string>
+    <string name="developerName">Crumet Studio</string>
+    <string name="authorName">Crumet Studio</string>
+
+    <string name="authorLink">http://www.crumet.com</string>
+    <string name="developer_link">http://www.crumet.com/</string>
+
+    <string name="theme_description">Material Circle Fold Icon Pack</string>
+    <string name="theme_info">Material Circle Fold Icon Pack</string>
+    <string name="theme_ad_msg">Material Circle Fold Icon Pack</string>
+
+    <string name="theme_feature">feature</string>
+
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+
+    <string name="iconpack">com.material.circle.fold</string>
+
+</resources>

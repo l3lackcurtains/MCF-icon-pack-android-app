@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion rootProject.ext.CompileSdk
+    buildToolsVersion rootProject.ext.BuildTools
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def appName = parent.name
+            def fileName = appName.replace(" ", "_")
+            outputFileName = "$fileName-v${variant.versionName}.apk"
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.material.circle.fold"
+        minSdkVersion rootProject.ext.MinSdk
+        targetSdkVersion rootProject.ext.TargetSdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.danimahardhika.candybar-library:core:3.5.0-b4'
+}

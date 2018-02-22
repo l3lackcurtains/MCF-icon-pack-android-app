@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <version>1</version>
+
+    <pkgName>com.material.circle.fold</pkgName>
+	<themeName>Material Circle Fold Icon Pack</themeName>
+	<themeInfo>Material Circle Fold Icon Pack with Fold Effect</themeInfo>
+	<preview img1="preview1" />
+	
+</theme>

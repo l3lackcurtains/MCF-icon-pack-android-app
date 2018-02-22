@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themeInfo>
+
+    <!-- FOR ATOM LAUNCHER -->
+
+    <packageName>com.material.circle.fold</packageName>
+    <versionName>1.0.0</versionName>
+    <versionCode>1</versionCode>
+    <themeName>Material Circle Fold Icon Pack</themeName>
+
+    <!-- Default Component Color -->
+    <themePointColor>#ffffff</themePointColor>
+    <themePreview img1="preview1" />
+    <preview img1="preview1" />
+
+</themeInfo>
